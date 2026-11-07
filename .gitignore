@@ -1,0 +1,9 @@
+# manuscript and internal notes stay private until publication
+paper/
+notes/
+ICTExpress_Overleaf.zip
+# run logs and superseded runs
+results/logs/
+results/fix_fresh_v1/
+__pycache__/
+*.pyc

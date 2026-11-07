@@ -1,0 +1,25 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the paper below."
+title: "Blockchain-Governed Threshold Calibration for Zero-Trust IIoT Gateways (code and results)"
+authors:
+  - family-names: Ibrahim
+    given-names: Hamza
+    orcid: "https://orcid.org/0009-0003-6388-9249"
+license: MIT
+repository-code: "https://github.com/hamzalabwork-sudo/blockchain-threshold-calibration-iiot"
+preferred-citation:
+  type: article
+  title: "Blockchain-Governed Threshold Calibration for Zero-Trust IIoT Gateways"
+  authors:
+    - family-names: Ibrahim
+      given-names: Hamza
+    - family-names: Aliyu
+      given-names: Muhammad Bello
+    - family-names: Ahakonye
+      given-names: Love Allen Chijioke
+    - family-names: Lee
+      given-names: Jae-Min
+    - family-names: Kim
+      given-names: Dong-Seong
+  year: 2026
+  notes: "Manuscript under review"

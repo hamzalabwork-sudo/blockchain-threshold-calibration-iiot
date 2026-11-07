@@ -1,0 +1,487 @@
+{
+ "dataset": "forge",
+ "seed": 45,
+ "manipulation": {
+  "iid/rho0.2/x0.25": {
+   "false_isolation_rate": 0.75375,
+   "benign_ever_blocked": 0.00125,
+   "benign_denial_rate": 0.12400500000000003,
+   "detection_rate": 1.0,
+   "tti_median": 3.0,
+   "tti_p90": 15.0,
+   "wrongful_grant_rate": 0.005058874836458787,
+   "false_reauth_rate": 0.005,
+   "attack_events_granted_per_10k": 5.8
+  },
+  "iid/rho0.2/x0.5": {
+   "false_isolation_rate": 0.10875,
+   "benign_ever_blocked": 0.0,
+   "benign_denial_rate": 0.019425000000000026,
+   "detection_rate": 1.0,
+   "tti_median": 5.0,
+   "tti_p90": 27.299999999999983,
+   "wrongful_grant_rate": 0.024247710423026602,
+   "false_reauth_rate": 0.0,
+   "attack_events_granted_per_10k": 27.8
+  },
+  "iid/rho0.2/x1": {
+   "false_isolation_rate": 0.0,
+   "benign_ever_blocked": 0.0,
+   "benign_denial_rate": 0.008794999999999997,
+   "detection_rate": 0.965,
+   "tti_median": 12.0,
+   "tti_p90": 40.80000000000001,
+   "wrongful_grant_rate": 0.0590492804186655,
+   "false_reauth_rate": 0.0,
+   "attack_events_granted_per_10k": 67.7
+  },
+  "iid/rho0.2/x2": {
+   "false_isolation_rate": 0.0,
+   "benign_ever_blocked": 0.0,
+   "benign_denial_rate": 0.008794999999999997,
+   "detection_rate": 0.93,
+   "tti_median": 20.0,
+   "tti_p90": 62.0,
+   "wrongful_grant_rate": 0.07754034016572176,
+   "false_reauth_rate": 0.0,
+   "attack_events_granted_per_10k": 88.9
+  },
+  "iid/rho0.2/x4": {
+   "false_isolation_rate": 0.0,
+   "benign_ever_blocked": 0.0,
+   "benign_denial_rate": 0.008794999999999997,
+   "detection_rate": 0.925,
+   "tti_median": 36.0,
+   "tti_p90": 103.79999999999998,
+   "wrongful_grant_rate": 0.08556476232010467,
+   "false_reauth_rate": 0.005405405405405406,
+   "attack_events_granted_per_10k": 98.1
+  },
+  "iid/rho0.05/x0.25": {
+   "false_isolation_rate": 0.75375,
+   "benign_ever_blocked": 0.00125,
+   "benign_denial_rate": 0.12253499999999995,
+   "detection_rate": 0.995,
+   "tti_median": 13.0,
+   "tti_p90": 62.0,
+   "wrongful_grant_rate": 0.04640054588877516,
+   "false_reauth_rate": 0.3316582914572864,
+   "attack_events_granted_per_10k": 13.6
+  },
+  "iid/rho0.05/x0.5": {
+   "false_isolation_rate": 0.12125,
+   "benign_ever_blocked": 0.0,
+   "benign_denial_rate": 0.0208275,
+   "detection_rate": 0.94,
+   "tti_median": 20.5,
+   "tti_p90": 95.90000000000003,
+   "wrongful_grant_rate": 0.06482429205049471,
+   "false_reauth_rate": 0.22340425531914893,
+   "attack_events_granted_per_10k": 19.0
+  },
+  "iid/rho0.05/x1": {
+   "false_isolation_rate": 0.0,
+   "benign_ever_blocked": 0.0,
+   "benign_denial_rate": 0.008935000000000026,
+   "detection_rate": 0.86,
+   "tti_median": 54.0,
+   "tti_p90": 135.60000000000002,
+   "wrongful_grant_rate": 0.0733538041624019,
+   "false_reauth_rate": 0.12790697674418605,
+   "attack_events_granted_per_10k": 21.5
+  },
+  "iid/rho0.05/x2": {
+   "false_isolation_rate": 0.0,
+   "benign_ever_blocked": 0.0,
+   "benign_denial_rate": 0.008935000000000026,
+   "detection_rate": 0.71,
+   "tti_median": 86.0,
+   "tti_p90": 174.8,
+   "wrongful_grant_rate": 0.08017741385192767,
+   "false_reauth_rate": 0.1619718309859155,
+   "attack_events_granted_per_10k": 23.5
+  },
+  "iid/rho0.05/x4": {
+   "false_isolation_rate": 0.0,
+   "benign_ever_blocked": 0.0,
+   "benign_denial_rate": 0.008935000000000026,
+   "detection_rate": 0.545,
+   "tti_median": 170.0,
+   "tti_p90": 277.0,
+   "wrongful_grant_rate": 0.08256567724326168,
+   "false_reauth_rate": 0.08256880733944955,
+   "attack_events_granted_per_10k": 24.2
+  },
+  "ar0.9/rho0.2/x0.25": {
+   "false_isolation_rate": 0.19,
+   "benign_ever_blocked": 0.06,
+   "benign_denial_rate": 0.053492500000000054,
+   "detection_rate": 0.955,
+   "tti_median": 12.0,
+   "tti_p90": 30.0,
+   "wrongful_grant_rate": 0.06188431422076282,
+   "false_reauth_rate": 0.0,
+   "attack_events_granted_per_10k": 73.5
+  },
+  "ar0.9/rho0.2/x0.5": {
+   "false_isolation_rate": 0.0575,
+   "benign_ever_blocked": 0.0175,
+   "benign_denial_rate": 0.02098,
+   "detection_rate": 0.925,
+   "tti_median": 24.0,
+   "tti_p90": 59.19999999999999,
+   "wrongful_grant_rate": 0.07543992590721563,
+   "false_reauth_rate": 0.0,
+   "attack_events_granted_per_10k": 89.6
+  },
+  "ar0.9/rho0.2/x1": {
+   "false_isolation_rate": 0.00625,
+   "benign_ever_blocked": 0.00125,
+   "benign_denial_rate": 0.010475000000000012,
+   "detection_rate": 0.915,
+   "tti_median": 42.0,
+   "tti_p90": 117.60000000000002,
+   "wrongful_grant_rate": 0.09051107181948304,
+   "false_reauth_rate": 0.0,
+   "attack_events_granted_per_10k": 107.5
+  },
+  "ar0.9/rho0.2/x2": {
+   "false_isolation_rate": 0.0,
+   "benign_ever_blocked": 0.0,
+   "benign_denial_rate": 0.009262499999999951,
+   "detection_rate": 0.865,
+   "tti_median": 83.0,
+   "tti_p90": 142.60000000000002,
+   "wrongful_grant_rate": 0.09741517218152732,
+   "false_reauth_rate": 0.0,
+   "attack_events_granted_per_10k": 115.7
+  },
+  "ar0.9/rho0.2/x4": {
+   "false_isolation_rate": 0.0,
+   "benign_ever_blocked": 0.0,
+   "benign_denial_rate": 0.009262499999999951,
+   "detection_rate": 0.795,
+   "tti_median": 151.0,
+   "tti_p90": 231.60000000000005,
+   "wrongful_grant_rate": 0.1012882040919424,
+   "false_reauth_rate": 0.0,
+   "attack_events_granted_per_10k": 120.3
+  },
+  "ar0.9/rho0.05/x0.25": {
+   "false_isolation_rate": 0.16875,
+   "benign_ever_blocked": 0.03875,
+   "benign_denial_rate": 0.047030000000000016,
+   "detection_rate": 0.865,
+   "tti_median": 51.0,
+   "tti_p90": 165.4000000000001,
+   "wrongful_grant_rate": 0.07503457814661134,
+   "false_reauth_rate": 0.11560693641618497,
+   "attack_events_granted_per_10k": 21.7
+  },
+  "ar0.9/rho0.05/x0.5": {
+   "false_isolation_rate": 0.0375,
+   "benign_ever_blocked": 0.005,
+   "benign_denial_rate": 0.015952500000000036,
+   "detection_rate": 0.74,
+   "tti_median": 92.0,
+   "tti_p90": 195.60000000000002,
+   "wrongful_grant_rate": 0.07780082987551867,
+   "false_reauth_rate": 0.10135135135135136,
+   "attack_events_granted_per_10k": 22.5
+  },
+  "ar0.9/rho0.05/x1": {
+   "false_isolation_rate": 0.00125,
+   "benign_ever_blocked": 0.0,
+   "benign_denial_rate": 0.00938249999999996,
+   "detection_rate": 0.52,
+   "tti_median": 172.0,
+   "tti_p90": 252.8,
+   "wrongful_grant_rate": 0.0784923928077455,
+   "false_reauth_rate": 0.08653846153846154,
+   "attack_events_granted_per_10k": 22.7
+  },
+  "ar0.9/rho0.05/x2": {
+   "false_isolation_rate": 0.0,
+   "benign_ever_blocked": 0.0,
+   "benign_denial_rate": 0.009220000000000006,
+   "detection_rate": 0.155,
+   "tti_median": 274.0,
+   "tti_p90": 347.0,
+   "wrongful_grant_rate": 0.07918395573997233,
+   "false_reauth_rate": 0.06451612903225806,
+   "attack_events_granted_per_10k": 22.9
+  },
+  "ar0.9/rho0.05/x4": {
+   "false_isolation_rate": 0.0,
+   "benign_ever_blocked": 0.0,
+   "benign_denial_rate": 0.009220000000000006,
+   "detection_rate": 0.0,
+   "tti_median": null,
+   "tti_p90": null,
+   "wrongful_grant_rate": 0.07918395573997233,
+   "false_reauth_rate": null,
+   "attack_events_granted_per_10k": 22.9
+  }
+ },
+ "contaminated": {
+  "iid/rho0.2": {
+   "false_isolation_rate": 0.0,
+   "benign_ever_blocked": 0.0,
+   "benign_denial_rate": 0.008794999999999997,
+   "detection_rate": 0.055,
+   "tti_median": 144.0,
+   "tti_p90": 241.0,
+   "wrongful_grant_rate": 0.1044047099869167,
+   "false_reauth_rate": 0.0,
+   "attack_events_granted_per_10k": 119.7,
+   "h": [
+    29.537822063437957,
+    434.28241705679187
+   ],
+   "h_clean": [
+    8.0,
+    5.700429522135355
+   ]
+  },
+  "iid/rho0.05": {
+   "false_isolation_rate": 0.0,
+   "benign_ever_blocked": 0.0,
+   "benign_denial_rate": 0.008935000000000026,
+   "detection_rate": 0.0,
+   "tti_median": null,
+   "tti_p90": null,
+   "wrongful_grant_rate": 0.08427157966564312,
+   "false_reauth_rate": null,
+   "attack_events_granted_per_10k": 24.7,
+   "h": [
+    29.537822063437957,
+    434.28241705679187
+   ],
+   "h_clean": [
+    8.0,
+    5.700429522135355
+   ]
+  },
+  "ar0.9/rho0.2": {
+   "false_isolation_rate": 0.0025,
+   "benign_ever_blocked": 0.00125,
+   "benign_denial_rate": 0.010120000000000018,
+   "detection_rate": 0.005,
+   "tti_median": 151.0,
+   "tti_p90": 151.0,
+   "wrongful_grant_rate": 0.10398248716005726,
+   "false_reauth_rate": 0.0,
+   "attack_events_granted_per_10k": 123.5,
+   "h": [
+    53.14791803186012,
+    439.64200130720786
+   ],
+   "h_clean": [
+    51.77717694620286,
+    26.52262782750995
+   ]
+  },
+  "ar0.9/rho0.05": {
+   "false_isolation_rate": 0.00125,
+   "benign_ever_blocked": 0.0,
+   "benign_denial_rate": 0.009367499999999973,
+   "detection_rate": 0.0,
+   "tti_median": null,
+   "tti_p90": null,
+   "wrongful_grant_rate": 0.07918395573997233,
+   "false_reauth_rate": null,
+   "attack_events_granted_per_10k": 22.9,
+   "h": [
+    53.14791803186012,
+    439.64200130720786
+   ],
+   "h_clean": [
+    51.77717694620286,
+    26.52262782750995
+   ]
+  }
+ },
+ "rederive": {
+  "identical": true,
+  "commit_changes_on_one_row": true
+ },
+ "monitor": {
+  "rho0.2/live0/cal0": {
+   "D_live": -0.0015497522107053392,
+   "D_cal": -0.01026502782942634,
+   "flag": false
+  },
+  "rho0.2/live0/cal0.5": {
+   "D_live": -0.0015497522107053392,
+   "D_cal": 0.48391205075545474,
+   "flag": false
+  },
+  "rho0.2/live0/cal0.9": {
+   "D_live": -0.0015497522107053392,
+   "D_cal": 0.8663629324335766,
+   "flag": false
+  },
+  "rho0.2/live0/cal0.99": {
+   "D_live": -0.0015497522107053392,
+   "D_cal": 0.9503108590005844,
+   "flag": false
+  },
+  "rho0.2/live0.5/cal0": {
+   "D_live": 0.45658110829044696,
+   "D_cal": -0.01026502782942634,
+   "flag": true
+  },
+  "rho0.2/live0.5/cal0.5": {
+   "D_live": 0.45658110829044696,
+   "D_cal": 0.48391205075545474,
+   "flag": false
+  },
+  "rho0.2/live0.5/cal0.9": {
+   "D_live": 0.45658110829044696,
+   "D_cal": 0.8663629324335766,
+   "flag": false
+  },
+  "rho0.2/live0.5/cal0.99": {
+   "D_live": 0.45658110829044696,
+   "D_cal": 0.9503108590005844,
+   "flag": false
+  },
+  "rho0.2/live0.9/cal0": {
+   "D_live": 0.8528166647144984,
+   "D_cal": -0.01026502782942634,
+   "flag": true
+  },
+  "rho0.2/live0.9/cal0.5": {
+   "D_live": 0.8528166647144984,
+   "D_cal": 0.48391205075545474,
+   "flag": true
+  },
+  "rho0.2/live0.9/cal0.9": {
+   "D_live": 0.8528166647144984,
+   "D_cal": 0.8663629324335766,
+   "flag": false
+  },
+  "rho0.2/live0.9/cal0.99": {
+   "D_live": 0.8528166647144984,
+   "D_cal": 0.9503108590005844,
+   "flag": false
+  },
+  "rho0.2/live0.99/cal0": {
+   "D_live": 0.9392541349076013,
+   "D_cal": -0.01026502782942634,
+   "flag": true
+  },
+  "rho0.2/live0.99/cal0.5": {
+   "D_live": 0.9392541349076013,
+   "D_cal": 0.48391205075545474,
+   "flag": true
+  },
+  "rho0.2/live0.99/cal0.9": {
+   "D_live": 0.9392541349076013,
+   "D_cal": 0.8663629324335766,
+   "flag": false
+  },
+  "rho0.2/live0.99/cal0.99": {
+   "D_live": 0.9392541349076013,
+   "D_cal": 0.9503108590005844,
+   "flag": false
+  },
+  "rho1/live0/cal0": {
+   "D_live": -0.0017443058612745565,
+   "D_cal": -0.01026502782942634,
+   "flag": false
+  },
+  "rho1/live0/cal0.5": {
+   "D_live": -0.0017443058612745565,
+   "D_cal": 0.48391205075545474,
+   "flag": false
+  },
+  "rho1/live0/cal0.9": {
+   "D_live": -0.0017443058612745565,
+   "D_cal": 0.8663629324335766,
+   "flag": false
+  },
+  "rho1/live0/cal0.99": {
+   "D_live": -0.0017443058612745565,
+   "D_cal": 0.9503108590005844,
+   "flag": false
+  },
+  "rho1/live0.5/cal0": {
+   "D_live": 0.4776506369651793,
+   "D_cal": -0.01026502782942634,
+   "flag": true
+  },
+  "rho1/live0.5/cal0.5": {
+   "D_live": 0.4776506369651793,
+   "D_cal": 0.48391205075545474,
+   "flag": false
+  },
+  "rho1/live0.5/cal0.9": {
+   "D_live": 0.4776506369651793,
+   "D_cal": 0.8663629324335766,
+   "flag": false
+  },
+  "rho1/live0.5/cal0.99": {
+   "D_live": 0.4776506369651793,
+   "D_cal": 0.9503108590005844,
+   "flag": false
+  },
+  "rho1/live0.9/cal0": {
+   "D_live": 0.8686500051969543,
+   "D_cal": -0.01026502782942634,
+   "flag": true
+  },
+  "rho1/live0.9/cal0.5": {
+   "D_live": 0.8686500051969543,
+   "D_cal": 0.48391205075545474,
+   "flag": true
+  },
+  "rho1/live0.9/cal0.9": {
+   "D_live": 0.8686500051969543,
+   "D_cal": 0.8663629324335766,
+   "flag": false
+  },
+  "rho1/live0.9/cal0.99": {
+   "D_live": 0.8686500051969543,
+   "D_cal": 0.9503108590005844,
+   "flag": false
+  },
+  "rho1/live0.99/cal0": {
+   "D_live": 0.9521143621666355,
+   "D_cal": -0.01026502782942634,
+   "flag": true
+  },
+  "rho1/live0.99/cal0.5": {
+   "D_live": 0.9521143621666355,
+   "D_cal": 0.48391205075545474,
+   "flag": true
+  },
+  "rho1/live0.99/cal0.9": {
+   "D_live": 0.9521143621666355,
+   "D_cal": 0.8663629324335766,
+   "flag": false
+  },
+  "rho1/live0.99/cal0.99": {
+   "D_live": 0.9521143621666355,
+   "D_cal": 0.9503108590005844,
+   "flag": false
+  }
+ },
+ "config": {
+  "scales": [
+   0.25,
+   0.5,
+   1.0,
+   2.0,
+   4.0
+  ],
+  "delta": 0.1,
+  "window": [
+   400,
+   500
+  ],
+  "contam": 0.05,
+  "compromised": 0.2,
+  "wall_seconds": 35.269615400000475
+ }
+}
